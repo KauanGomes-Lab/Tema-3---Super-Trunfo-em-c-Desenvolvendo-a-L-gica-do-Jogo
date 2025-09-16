@@ -66,7 +66,7 @@ case 1:
 	printf("\nDigigte o nome do pais A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
 	
-	printf("\ndigite a população do pais A:\n"); // Mensagem.
+	printf("\nDigite a População do Pais A:\n"); // Mensagem.
 	scanf("%d", &populacao_pais_a);
 	
 	printf("\nEscolha o Segundo Atributo Desejado Para a Comparação:\n");
@@ -245,7 +245,7 @@ case 2:
 	printf("\nDigigte o nome do pais A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
 	
-	printf("\ndigite a Área do pais A:\n"); // Entrada.
+	printf("\nDigite a Área do Pais A:\n"); // Entrada.
 	scanf("%f", &area_pais_a);
 	
 	printf("\nEscolha o Segundo Atributo Desejado Para a Comparação:\n");
@@ -362,10 +362,10 @@ case 2:
 			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 				
-			printf("\nDigite a População do pais B:\n"); // Entrada.
+			printf("\nDigite a População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 		
-			printf("\nDigite a Area do pais B:\n"); // Entrada.
+			printf("\nDigite a Área do Pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 				
 			// Formula do Calculo desidade demografica das Cartas:
@@ -389,7 +389,7 @@ case 2:
 		case 6:
 			printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
 			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
@@ -421,7 +421,7 @@ break;
 case 3:
 	printf("\nAtributo Escolhido : PIB.\n"); // Mensagem.
 	
-	printf("\nDigigte o nome do pais A: \n"); // Entrada.
+	printf("\nDigigte o Nome do Pais A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
 	
 	printf("\nDigite o PIB do Pais A:\n"); // Entrada.
@@ -535,13 +535,13 @@ case 3:
 		case 5:
 			printf("\nAtributo Escolhido : Densidade Demografica.\n"); // Mensagem.	
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 				
-			printf("\nDigite a População do pais B:\n"); // Entrada.
+			printf("\nDigite a População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 		
-			printf("\nDigite a Area do pais B:\n"); // Entrada.
+			printf("\nDigite a Area do Pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 				
 			// Formula do Calculo desidade demografica das Cartas:
@@ -565,7 +565,7 @@ case 3:
 		case 6:
 			printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
 			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
@@ -690,9 +690,9 @@ case 4:
 		case 4:
 			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
-			printf("\ndigite o Número de Pontos Turisticos do pais B:\n"); // Entrada.
+			printf("\ndigite o Número de Pontos Turisticos do Pais B:\n"); // Entrada.
 			scanf("%d", &pontos_turisticos_b);
 			
 			if (pontos_turisticos_a > pontos_turisticos_b) { // Estrutura de Decisão.
@@ -713,13 +713,13 @@ case 4:
 		case 5:
 			printf("\nAtributo Escolhido : Densidade Demografica.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite a População do pais B:\n"); // Entrada.
+			printf("\nDigite a População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 	
-			printf("\nDigite a Area do pais B:\n"); // Entrada.
+			printf("\nDigite a Área do Pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
 			// Formula do Calculo desidade demografica das Cartas:
@@ -743,7 +743,7 @@ case 4:
 		case 6:
 			printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
 			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
@@ -778,10 +778,10 @@ case 5:
 	printf("Digite o Nome do País A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
 	
-	printf("\nDigite a População do pais A:\n"); // Entrada.
+	printf("\nDigite a População do Pais A:\n"); // Entrada.
 	scanf("%d", &populacao_pais_a);
 	
-	printf("\nDigite a Area do pais A:\n"); // Entrada.
+	printf("\nDigite a Área do Pais A:\n"); // Entrada.
 	scanf("%f", &area_pais_a);
 	
 	// Formula do Calculo desidade demografica das Cartas:
@@ -802,9 +802,9 @@ case 5:
 		case 1:
 			printf("\nAtributo Escolhido : População.\n"); // Mensagem.
 		
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
-			printf("\ndigite a População do pais B:\n"); // Entrada.
+			printf("\ndigite a População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
 			if (densidade_demografica_pais_a > populacao_pais_b) { // Estrutura de Decisão.
@@ -825,10 +825,10 @@ case 5:
 		case 2:
 			printf("\nAtributo Escolhido : Área.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\ndigite a Àrea do pais B:\n"); // Entrada.
+			printf("\ndigite a Àrea do Pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
 			if (densidade_demografica_pais_a > area_pais_b) { // Estrutura de Decisão.
@@ -849,10 +849,10 @@ case 5:
 		case 3:
 			printf("\nAtributo Escolhido : PIB.\n"); // Mensagem.
 				
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\ndigite a PIB do pais B:\n"); // Entrada.
+			printf("\ndigite a PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
 			if (densidade_demografica_pais_a > pib_pais_b) { // Estrutura de Decisão.
@@ -873,10 +873,10 @@ case 5:
 		case 4:
 			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\ndigite o Número de Pontos Turisticos do pais B:\n"); // Entrada.
+			printf("\ndigite o Número de Pontos Turisticos do Pais B:\n"); // Entrada.
 			scanf("%d", &pontos_turisticos_b);
 			
 			if (densidade_demografica_pais_a > pontos_turisticos_b) { // Estrutura de Decisão.
@@ -897,13 +897,13 @@ case 5:
 		case 5:
 			printf("\nAtributo Escolhido : Densidade Demografica.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite a População do pais B:\n"); // Entrada.
+			printf("\nDigite a População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 	
-			printf("\nDigite a Area do pais B:\n"); // Entrada.
+			printf("\nDigite a Area do Pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
 			// Formula do Calculo desidade demografica das Cartas:
@@ -927,7 +927,7 @@ case 5:
 		case 6:
 			printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 		
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
 			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
@@ -959,7 +959,7 @@ break;
 case 6:
 	printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 	
-	printf("\nDigigte o nome do pais A: \n"); // Entrada.
+	printf("\nDigigte o nome do Pais A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
 	
 	printf("\nDigite o PIB do Pais A:\n"); // Entrada.
@@ -985,10 +985,10 @@ case 6:
 		case 1:
 			printf("\nAtributo Escolhido : População.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\ndigite a População do pais B:\n"); // Entrada.
+			printf("\ndigite a População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
 			if (pib_per_capta_pais_a > populacao_pais_b) { // Estrutura de Decisão.
@@ -1009,10 +1009,10 @@ case 6:
 		case 2:
 			printf("\nAtributo Escolhido : Área.\n"); // Mensagem.
 		
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\ndigite a Àrea do pais B:\n"); // Entrada.
+			printf("\ndigite a Àrea do Pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
 			if (pib_per_capta_pais_a > area_pais_b) { // Estrutura de Decisão.
@@ -1033,10 +1033,10 @@ case 6:
 		case 3:
 			printf("\nAtributo Escolhido : PIB.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\ndigite a PIB do pais B:\n"); // Entrada.
+			printf("\ndigite a PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
 			if (pib_per_capta_pais_a > pib_pais_b) { // Estrutura de Decisão.
@@ -1057,10 +1057,10 @@ case 6:
 		case 4:
 			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\ndigite o Número de Pontos Turisticos do pais B:\n"); // Entrada.
+			printf("\ndigite o Número de Pontos Turisticos do Pais B:\n"); // Entrada.
 			scanf("%d", &pontos_turisticos_b);
 			
 			if (pib_per_capta_pais_a > pontos_turisticos_b) { // Estrutura de Decisão.
@@ -1081,13 +1081,13 @@ case 6:
 		case 5:	
 			printf("\nAtributo Escolhido : Densidade Demografica.\n"); // Mensagem.
 		
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite a População do pais B:\n"); // Entrada.
+			printf("\nDigite a População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 	
-			printf("\nDigite a Area do pais B:\n"); // Entrada.
+			printf("\nDigite a Area do Pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
 			 // Formula do Calculo Densidade Demografica da Carta B.
@@ -1111,7 +1111,7 @@ case 6:
 		case 6:
 			printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
+			printf("\nDigigte o Nome do Pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
 			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
@@ -1151,7 +1151,7 @@ case 7:
 	printf("\nDigite a População do País A: \n"); // Entrada.
 	scanf("%d", &populacao_pais_a);
 	
-	printf("\nDigite a Área do pais A:\n"); // Entrada.
+	printf("\nDigite a Área do Pais A:\n"); // Entrada.
 	scanf("%f", &area_pais_a);
 	
 	printf("\nDigite o PIB do Pais A:\n"); // Entrada.
@@ -1177,7 +1177,7 @@ case 7:
 	printf("\nDigite a População do País B: \n"); // Entrada.
 	scanf("%d", &populacao_pais_b);
 	
-	printf("\nDigite a Área do pais B:\n"); // Entrada.
+	printf("\nDigite a Área do Pais B:\n"); // Entrada.
 	scanf("%f", &area_pais_b);
 	
 	printf("\nDigite o PIB do Pais B:\n"); // Entrada.
