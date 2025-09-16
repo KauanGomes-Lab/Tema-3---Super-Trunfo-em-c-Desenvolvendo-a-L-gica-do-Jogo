@@ -1,5 +1,3 @@
-// OBS: AO Professor: Fui Obrigado a usar a função 'fgets' pois a função 'scanf' não atendia a meus requisitos como pegar o caractere de espaço em palavras das cidades como " São Paulo. " Por Exemplo - Peço Desculpas Desde já.
-
 // Usei a função getchar na linha 48 para pegar o valor da variavel e retornalo como int.
 
 #include <stdio.h>
