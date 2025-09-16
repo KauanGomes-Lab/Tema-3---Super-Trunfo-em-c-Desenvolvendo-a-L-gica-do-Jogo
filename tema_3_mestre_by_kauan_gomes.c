@@ -61,12 +61,14 @@ scanf("%d", &dados);
 switch (dados) {
 
 case 1:
-	printf("\nAtributo Escolhido : População.\n");
+	printf("\nAtributo Escolhido : População.\n"); // Mensagem.
 	
-	printf("\nDigigte o nome do pais A: \n");
+	printf("\nDigigte o nome do pais A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
-	printf("\ndigite a população do pais A:\n");
+	
+	printf("\ndigite a população do pais A:\n"); // Mensagem.
 	scanf("%d", &populacao_pais_a);
+	
 	printf("\nEscolha o Segundo Atributo Desejado Para a Comparação:\n");
 	printf("1 - População :\n");
 	printf("2 - Àrea :\n");
@@ -80,18 +82,18 @@ case 1:
 		switch (dados2) {
 		
 		case 1:
-			printf("\nAtributo Escolhido : População.\n");
+			printf("\nAtributo Escolhido : População.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite à População do Pais B:\n");
+			printf("\nDigite à População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
-			if (populacao_pais_a > populacao_pais_b) {
+			if (populacao_pais_a > populacao_pais_b) { // Estrutura de Decisão. 
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
-			printf("Pais A : ( %s ) - População : (%d) Individuos.\n\n", pais_a, populacao_pais_a);
+			printf("Pais A : ( %s ) - População : (%d) Individuos.\n", pais_a, populacao_pais_a);
 			printf("Pais B : ( %s ) - População : (%d) Individuos.\n\n", pais_b, populacao_pais_b);
 			}if (populacao_pais_b > populacao_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -104,15 +106,15 @@ case 1:
 		break;
 		
 		case 2:
-			printf("\nAtributo Escolhido : Área.\n");
+			printf("\nAtributo Escolhido : Área.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 		
-			printf("\nDigite à Área do Pais B:\n");
+			printf("\nDigite à Área do Pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 		
-			if (populacao_pais_a > area_pais_b) {
+			if (populacao_pais_a > area_pais_b) { // Estrutura de Decisão. 
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - População : (%d) Individuos.\n", pais_a, populacao_pais_a);
@@ -128,15 +130,15 @@ case 1:
 		break;
 		
 		case 3:
-			printf("\nAtributo Escolhido : PIB.\n");
+			printf("\nAtributo Escolhido : PIB.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o PIB do Pais B:\n");
+			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
-			if (populacao_pais_a > pib_pais_b) {
+			if (populacao_pais_a > pib_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - População : (%d) Individuos.\n", pais_a, populacao_pais_a);
@@ -152,15 +154,15 @@ case 1:
 		break;
 		
 		case 4:
-			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais A:\n");
+			printf("\nDigite o Nome do Pais A:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o Número de Pontos Turisticos do Pais B:\n");
+			printf("\nDigite o Número de Pontos Turisticos do Pais B:\n"); // Entrada.
 			scanf("%d", &pontos_turisticos_b);
 			
-			if (populacao_pais_a > pontos_turisticos_b) {
+			if (populacao_pais_a > pontos_turisticos_b) { // Estrutura de Decisão. 
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - População : (%d) Individuos.\n", pais_a, populacao_pais_a);
@@ -176,24 +178,24 @@ case 1:
 		break;
 		
 		case 5:
-			printf("\nAtributo Escolhido : Densidade Demografica.\n");
+			printf("\nAtributo Escolhido : Densidade Demografica.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 				
-			printf("\nDigite a População do pais B:\n");
+			printf("\nDigite a População do pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 		
-			printf("\nDigite a Area do pais B:\n");
+			printf("\nDigite a Area do pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 				
 			// Formula do Calculo desidade demografica das Cartas:
 			densidade_demografica_pais_b = populacao_pais_b / area_pais_b;
 				
-			if (populacao_pais_a > densidade_demografica_pais_b) {
+			if (populacao_pais_a > densidade_demografica_pais_b) { // Estrutura de Decisão. 
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
-			printf("Pais A : ( %s ) - População : (%d) Individuos.\n\n", pais_a, populacao_pais_a);
+			printf("Pais A : ( %s ) - População : (%d) Individuos.\n", pais_a, populacao_pais_a);
 			printf("Pais B : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n\n", pais_b, densidade_demografica_pais_b);
 			}if (densidade_demografica_pais_b > populacao_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -206,21 +208,21 @@ case 1:
 		break;
 		
 		case 6:
-			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+			printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o PIB do Pais B:\n");
+			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
-			printf("\nDigite à População do Pais B:\n");
+			printf("\nDigite à População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
 			// Formula do Calculo PIB Per Capta da Carta B.
 			pib_per_capta_pais_b = pib_pais_b / populacao_pais_b;
 			
-			if (populacao_pais_a > pib_per_capta_pais_b) {
+			if (populacao_pais_a > pib_per_capta_pais_b) { // Estrutura de Decisão. 
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - População : (%d) Individuos.\n", pais_a, populacao_pais_a);
@@ -238,11 +240,14 @@ case 1:
 break;
 
 case 2:
-	printf("\nAtributo Escolhido : Área.\n");
-	printf("\nDigigte o nome do pais A: \n");
+	printf("\nAtributo Escolhido : Área.\n"); // Mensagem.
+	
+	printf("\nDigigte o nome do pais A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
-	printf("\ndigite a Área do pais A:\n");
+	
+	printf("\ndigite a Área do pais A:\n"); // Entrada.
 	scanf("%f", &area_pais_a);
+	
 	printf("\nEscolha o Segundo Atributo Desejado Para a Comparação:\n");
 	printf("1 - População :\n");
 	printf("2 - Àrea :\n");
@@ -256,15 +261,15 @@ case 2:
 		switch (dados2) {
 		
 		case 1:
-			printf("\nAtributo Escolhido : População.\n");
+			printf("\nAtributo Escolhido : População.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite à População do Pais B:\n");
+			printf("\nDigite à População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
-			if (area_pais_a > populacao_pais_b) {
+			if (area_pais_a > populacao_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Área : (%.2f) Km².\n", pais_a, area_pais_a);
@@ -280,18 +285,18 @@ case 2:
 		break;
 		
 		case 2:
-			printf("\nAtributo Escolhido : Área.\n");
+			printf("\nAtributo Escolhido : Área.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 		
-			printf("\nDigite à Àrea do Pais B:\n");
+			printf("\nDigite à Àrea do Pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 		
-			if (area_pais_a > area_pais_b) {
+			if (area_pais_a > area_pais_b) { // Estrutura de Decisão. 
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
-			printf("Pais A : ( %s ) - Área : (%.2f) Km².\n\n", pais_a, area_pais_a);
+			printf("Pais A : ( %s ) - Área : (%.2f) Km².\n", pais_a, area_pais_a);
 			printf("Pais B : ( %s ) - Área : (%.2f) Km².\n\n", pais_b, area_pais_b);
 			}if (area_pais_b > area_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -304,15 +309,15 @@ case 2:
 		break;
 		
 		case 3:
-			printf("\nAtributo Escolhido : PIB.\n");
+			printf("\nAtributo Escolhido : PIB.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o PIB do Pais B:\n");
+			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
-			if (area_pais_a > pib_pais_b) {
+			if (area_pais_a > pib_pais_b) { // Estrutura de Decisão. 
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Área : (%.2f) Individuos.\n", pais_a, area_pais_a);
@@ -328,15 +333,15 @@ case 2:
 		break;
 		
 		case 4:
-			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais A:\n");
+			printf("\nDigite o Nome do Pais A:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o Número de Pontos Turisticos do Pais B:\n");
+			printf("\nDigite o Número de Pontos Turisticos do Pais B:\n"); // Entrada.
 			scanf("%d", &pontos_turisticos_b);
 			
-			if (area_pais_a > pontos_turisticos_b) {
+			if (area_pais_a > pontos_turisticos_b) { // Estrutura de Decisão. 
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Área : (%.2f) Individuos.\n", pais_a, area_pais_a);
@@ -352,21 +357,21 @@ case 2:
 		break;
 			
 		case 5:
-			printf("\nAtributo Escolhido : Densidade Demografica.\n");
+			printf("\nAtributo Escolhido : Densidade Demografica.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 				
-			printf("\nDigite a População do pais B:\n");
+			printf("\nDigite a População do pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 		
-			printf("\nDigite a Area do pais B:\n");
+			printf("\nDigite a Area do pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 				
 			// Formula do Calculo desidade demografica das Cartas:
 			densidade_demografica_pais_b = populacao_pais_b / area_pais_b;
 				
-			if (area_pais_a > densidade_demografica_pais_b) {
+			if (area_pais_a > densidade_demografica_pais_b) { // Estrutura de Decisão. 
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Área : (%.2f) Individuos.\n", pais_a, area_pais_a);
@@ -375,28 +380,28 @@ case 2:
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
 			printf("Pais B : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n", pais_b, densidade_demografica_pais_b);
-			printf("Pais A : ( %s ) - Área : (%.2f) Individuos.\n", pais_a, area_pais_a);
+			printf("Pais A : ( %s ) - Área : (%.2f) Individuos.\n\n", pais_a, area_pais_a);
 			}if (area_pais_a == densidade_demografica_pais_b || densidade_demografica_pais_b == area_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Resultado Final : ( %s ) e ( %s ) Empatados.\n\n", pais_a , pais_b);}
 		break;
 		
 		case 6:
-			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+			printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o PIB do Pais B:\n");
+			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
-			printf("\nDigite à População do Pais B:\n");
+			printf("\nDigite à População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
 			// Formula do Calculo PIB Per Capta da Carta B.
 			pib_per_capta_pais_b = pib_pais_b / populacao_pais_b;
 			
-			if (area_pais_a > pib_per_capta_pais_b) {
+			if (area_pais_a > pib_per_capta_pais_b) { // Estrutura de Decisão. 
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Área : (%.2f) Individuos.\n", pais_a, area_pais_a);
@@ -405,7 +410,7 @@ case 2:
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
 			printf("Pais B : ( %s ) - PIB - Per Capta : %.2f Reais.\n", pais_a, pib_per_capta_pais_b);
-			printf("Pais A : ( %s ) - Área : (%.2f) Individuos.\n", pais_a, area_pais_a);
+			printf("Pais A : ( %s ) - Área : (%.2f) Individuos.\n\n", pais_a, area_pais_a);
 			}if (area_pais_a == pib_per_capta_pais_b || pib_per_capta_pais_b == area_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Resultado Final : ( %s ) e ( %s ) Empatados.\n\n", pais_a , pais_b);}
@@ -414,12 +419,12 @@ case 2:
 break;
 
 case 3:
-	printf("\nAtributo Escolhido : PIB.\n");
+	printf("\nAtributo Escolhido : PIB.\n"); // Mensagem.
 	
-	printf("\nDigigte o nome do pais A: \n");
+	printf("\nDigigte o nome do pais A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
 	
-	printf("\nDigite o PIB do Pais A:\n");
+	printf("\nDigite o PIB do Pais A:\n"); // Entrada.
 	scanf("%f", &pib_pais_a);
 	
 	printf("\nEscolha o Segundo Atributo Desejado Para a Comparação:\n");
@@ -435,12 +440,12 @@ case 3:
 	switch (dados2) {
 	
 		case 1:
-			printf("\nAtributo Escolhido : População.\n");
+			printf("\nAtributo Escolhido : População.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite a População do Pais B:\n");
+			printf("\nDigite a População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
 			if (pib_pais_a > populacao_pais_b) {
@@ -448,7 +453,7 @@ case 3:
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - PIB : (%.2f) Reais.\n", pais_a, pib_pais_a);
 			printf("Pais B : ( %s ) - População : (%d) Individuos.\n\n", pais_b, populacao_pais_b);
-			}if (populacao_pais_b > pib_pais_a) {
+			}if (populacao_pais_b > pib_pais_a) { // Estrutura de Decisão. 
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
 			printf("Pais B : ( %s ) - População : (%d) Individuos.\n", pais_b, populacao_pais_b);
@@ -459,15 +464,15 @@ case 3:
 		break;
 		
 		case 2:
-			printf("\nAtributo Escolhido : Área.\n");
+			printf("\nAtributo Escolhido : Área.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite á Área do Pais B:\n");
+			printf("\nDigite á Área do Pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
-			if (pib_pais_a > area_pais_b) {
+			if (pib_pais_a > area_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - PIB : (%.2f) Reais.\n", pais_a, pib_pais_a);
@@ -483,23 +488,23 @@ case 3:
 		break;
 		
 		case 3:
-			printf("\nAtributo Escolhido : PIB.\n");
+			printf("\nAtributo Escolhido : PIB.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o PIB do Pais B:\n");
+			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
 			if (pib_pais_a > pib_pais_b) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
-			printf("Pais A : ( %s ) - PIB : (%.2f) Reais.\n\n", pais_a, pib_pais_a);
+			printf("Pais A : ( %s ) - PIB : (%.2f) Reais.\n", pais_a, pib_pais_a);
 			printf("Pais B : ( %s ) - PIB : (%.2f) Reais.\n\n", pais_b, pib_pais_b);
-			}if (pib_pais_b > pib_pais_a) {
+			}if (pib_pais_b > pib_pais_a) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
-			printf("Pais B : ( %s ) - PIB : (%.2f) Reais.\n\n", pais_b, pib_pais_b);
+			printf("Pais B : ( %s ) - PIB : (%.2f) Reais.\n", pais_b, pib_pais_b);
 			printf("Pais A : ( %s ) - PIB : (%.2f) Reais.\n\n", pais_a, pib_pais_a);
 			}if (pib_pais_a == pib_pais_b || pib_pais_b == pib_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -507,13 +512,12 @@ case 3:
 		break;
 		
 		case 4:
-			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n"); // Mensagem.
 
-			
-			printf("\nDigite o Número de Pontos Turisticos do Pais B:\n");
+			printf("\nDigite o Número de Pontos Turisticos do Pais B:\n"); // Entrada.
 			scanf("%d", &pontos_turisticos_b);
 			
-			if (pib_pais_a > pontos_turisticos_b) {
+			if (pib_pais_a > pontos_turisticos_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - PIB : (%.2f) Individuos.\n", pais_a, pib_pais_a);
@@ -529,21 +533,21 @@ case 3:
 		break;
 		
 		case 5:
-			printf("\nAtributo Escolhido : Densidade Demografica.\n");	
+			printf("\nAtributo Escolhido : Densidade Demografica.\n"); // Mensagem.	
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 				
-			printf("\nDigite a População do pais B:\n");
+			printf("\nDigite a População do pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 		
-			printf("\nDigite a Area do pais B:\n");
+			printf("\nDigite a Area do pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 				
 			// Formula do Calculo desidade demografica das Cartas:
 			densidade_demografica_pais_b = populacao_pais_b / area_pais_b;
 				
-			if (pib_pais_a > densidade_demografica_pais_b) {
+			if (pib_pais_a > densidade_demografica_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - PIB : (%.2f) Individuos.\n", pais_a, pib_pais_a);
@@ -552,28 +556,28 @@ case 3:
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
 			printf("Pais B : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n", pais_b, densidade_demografica_pais_b);
-			printf("Pais A : ( %s ) - PIB : (%.2f) Individuos.\n", pais_a, pib_pais_a);
+			printf("Pais A : ( %s ) - PIB : (%.2f) Individuos.\n\n", pais_a, pib_pais_a);
 			}if (pib_pais_a == densidade_demografica_pais_b || densidade_demografica_pais_b == pib_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Resultado Final : ( %s ) e ( %s ) Empatados.\n\n", pais_a , pais_b);}
 		break;
 		
 		case 6:
-			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+			printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o PIB do Pais B:\n");
+			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
-			printf("\nDigite à População do Pais B:\n");
+			printf("\nDigite à População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
 			// Formula do Calculo PIB Per Capta da Carta B.
 			pib_per_capta_pais_b = pib_pais_b / populacao_pais_b;
 			
-			if (pib_pais_a > pib_per_capta_pais_b) {
+			if (pib_pais_a > pib_per_capta_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - PIB : (%.2f) Individuos.\n", pais_a, pib_pais_a);
@@ -591,12 +595,12 @@ case 3:
 break;
 
 case 4:
-	printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+	printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n"); // Mensagem.
 	
-	printf("\nDigigte o nome do pais A: \n");
+	printf("\nDigigte o nome do pais A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
 	
-	printf("\nDigite o Número de Pontos Turisticos Do Pais A: \n");
+	printf("\nDigite o Número de Pontos Turisticos Do Pais A: \n"); // Entrada.
 	scanf("%d", &pontos_turisticos_a);
 	
 	printf("\nEscolha o Segundo Atributo Desejado Para a Comparação:\n");
@@ -612,15 +616,15 @@ case 4:
 	switch (dados2) {
 	
 		case 1:
-			printf("\nAtributo Escolhido : População.\n");
+			printf("\nAtributo Escolhido : População.\n"); // Mensagem.
 			
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite a População do Pais B:\n");
+			printf("\nDigite a População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
-			if (pontos_turisticos_a > populacao_pais_b) {
+			if (pontos_turisticos_a > populacao_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Número de Pontos Turisticos : %d.\n", pais_a, pontos_turisticos_a);
@@ -636,15 +640,15 @@ case 4:
 		break;
 		
 		case 2:
-			printf("\nAtributo Escolhido : Área.\n");
+			printf("\nAtributo Escolhido : Área.\n"); // Mensagem.
 
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite a Área do Pais B:\n");
+			printf("\nDigite a Área do Pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
-			if (pontos_turisticos_a > area_pais_b) {
+			if (pontos_turisticos_a > area_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Número de Pontos Turisticos : %d.\n", pais_a, pontos_turisticos_a);
@@ -652,7 +656,7 @@ case 4:
 			}if (area_pais_b > pontos_turisticos_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
-			printf("Pais B : ( %s ) - Área : (%.2f) Km².\n\n", pais_b, area_pais_b);
+			printf("Pais B : ( %s ) - Área : (%.2f) Km².\n", pais_b, area_pais_b);
 			printf("Pais A : ( %s ) - Número de Pontos Turisticos : %d.\n\n", pais_a, pontos_turisticos_a);
 			}if (pontos_turisticos_a == area_pais_b || area_pais_b == pontos_turisticos_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -660,15 +664,15 @@ case 4:
 		break;
 		
 		case 3:
-			printf("\nAtributo Escolhido : PIB.\n");
+			printf("\nAtributo Escolhido : PIB.\n");// Mensagem.
 			
-			printf("\nDigite o Nome do Pais B:\n");
+			printf("\nDigite o Nome do Pais B:\n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o PIB do Pais B:\n");
+			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
-			if (pontos_turisticos_a > pib_pais_b) {
+			if (pontos_turisticos_a > pib_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Número de Pontos Turisticos : %d.\n", pais_a, pontos_turisticos_a);
@@ -676,7 +680,7 @@ case 4:
 			}if (pib_pais_b > pontos_turisticos_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
-			printf("Pais B : ( %s ) - PIB : (%.2f) Reais.\n\n", pais_b, pib_pais_b);
+			printf("Pais B : ( %s ) - PIB : (%.2f) Reais.\n", pais_b, pib_pais_b);
 			printf("Pais A : ( %s ) - Número de Pontos Turisticos : %d.\n\n", pais_a, pontos_turisticos_a);
 			}if (pontos_turisticos_a == pib_pais_b || pib_pais_b == pontos_turisticos_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -684,22 +688,22 @@ case 4:
 		break;
 		
 		case 4:
-			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
-			printf("\ndigite o Número de Pontos Turisticos do pais B:\n");
+			printf("\ndigite o Número de Pontos Turisticos do pais B:\n"); // Entrada.
 			scanf("%d", &pontos_turisticos_b);
 			
-			if (pontos_turisticos_a > pontos_turisticos_b) {
+			if (pontos_turisticos_a > pontos_turisticos_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
-			printf("Pais A : ( %s ) - Número de Pontos Turisticos : %d.\n\n", pais_a, pontos_turisticos_a);
+			printf("Pais A : ( %s ) - Número de Pontos Turisticos : %d.\n", pais_a, pontos_turisticos_a);
 			printf("Pais B : ( %s ) - Número de Pontos Turisticos : %d.\n\n", pais_b, pontos_turisticos_b);
 			}if (pontos_turisticos_b > pontos_turisticos_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
-			printf("Pais B : ( %s ) - Número de Pontos Turisticos : %d.\n\n", pais_b, pontos_turisticos_b);
+			printf("Pais B : ( %s ) - Número de Pontos Turisticos : %d.\n", pais_b, pontos_turisticos_b);
 			printf("Pais A : ( %s ) - Número de Pontos Turisticos : %d.\n\n", pais_a, pontos_turisticos_a);
 			}if (pontos_turisticos_a == pontos_turisticos_b || pontos_turisticos_b == pontos_turisticos_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -707,21 +711,21 @@ case 4:
 		break;
 		
 		case 5:
-			printf("\nAtributo Escolhido : Densidade Demografica.\n");
+			printf("\nAtributo Escolhido : Densidade Demografica.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite a População do pais B:\n");
+			printf("\nDigite a População do pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 	
-			printf("\nDigite a Area do pais B:\n");
+			printf("\nDigite a Area do pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
 			// Formula do Calculo desidade demografica das Cartas:
 			densidade_demografica_pais_b = populacao_pais_b / area_pais_b;
 			
-			if (pontos_turisticos_a > densidade_demografica_pais_b) {
+			if (pontos_turisticos_a > densidade_demografica_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Número de Pontos Turisticos : %d.\n", pais_a, pontos_turisticos_a);
@@ -737,21 +741,21 @@ case 4:
 		break;
 		
 		case 6:
-			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+			printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o PIB do Pais B:\n");
+			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
-			printf("\nDigite à População do Pais B:\n");
+			printf("\nDigite à População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
 			// Formula do Calculo PIB Per Capta da Carta B.
 			pib_per_capta_pais_b = pib_pais_b / populacao_pais_b;
 			
-			if (pontos_turisticos_a > pib_per_capta_pais_b) {
+			if (pontos_turisticos_a > pib_per_capta_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Número de Pontos Turisticos : %d.\n", pais_a, pontos_turisticos_a);
@@ -769,17 +773,15 @@ case 4:
 break;
 
 case 5: 
-	printf("\nAtributo Escolhido : Densidade Demografica.\n");
-		
-	printf("\nDensidade Demografica do País A:\n\n");
+	printf("\nAtributo Escolhido : Densidade Demografica.\n"); // Mensagem.
 	
-	printf("Digite o Nome do País A: \n");
+	printf("Digite o Nome do País A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
 	
-	printf("\nDigite a População do pais A:\n");
+	printf("\nDigite a População do pais A:\n"); // Entrada.
 	scanf("%d", &populacao_pais_a);
 	
-	printf("\nDigite a Area do pais A:\n");
+	printf("\nDigite a Area do pais A:\n"); // Entrada.
 	scanf("%f", &area_pais_a);
 	
 	// Formula do Calculo desidade demografica das Cartas:
@@ -798,14 +800,14 @@ case 5:
 	switch (dados2) {
 	
 		case 1:
-			printf("\nAtributo Escolhido : População.\n");
+			printf("\nAtributo Escolhido : População.\n"); // Mensagem.
 		
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
-			printf("\ndigite a População do pais B:\n");
+			printf("\ndigite a População do pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
-			if (densidade_demografica_pais_a > populacao_pais_b) {
+			if (densidade_demografica_pais_a > populacao_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n", pais_a, densidade_demografica_pais_a);
@@ -813,7 +815,7 @@ case 5:
 			}if (populacao_pais_b > densidade_demografica_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
-			printf("Pais B : ( %s ) - População : (%d) Individuos.\n\n", pais_b, populacao_pais_b);
+			printf("Pais B : ( %s ) - População : (%d) Individuos.\n", pais_b, populacao_pais_b);
 			printf("Pais A : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n\n", pais_a, densidade_demografica_pais_a);
 			}if (densidade_demografica_pais_a == populacao_pais_b || populacao_pais_b == densidade_demografica_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -821,14 +823,15 @@ case 5:
 		break;
 		
 		case 2:
-			printf("\nAtributo Escolhido : Área.\n");
+			printf("\nAtributo Escolhido : Área.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
-			printf("\ndigite a Àrea do pais B:\n");
+			
+			printf("\ndigite a Àrea do pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
-			if (densidade_demografica_pais_a > area_pais_b) {
+			if (densidade_demografica_pais_a > area_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n", pais_a, densidade_demografica_pais_a);
@@ -844,14 +847,15 @@ case 5:
 		break;
 		
 		case 3:
-			printf("\nAtributo Escolhido : PIB.\n");
+			printf("\nAtributo Escolhido : PIB.\n"); // Mensagem.
 				
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
-			printf("\ndigite a PIB do pais B:\n");
+			
+			printf("\ndigite a PIB do pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
-			if (densidade_demografica_pais_a > pib_pais_b) {
+			if (densidade_demografica_pais_a > pib_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n", pais_a, densidade_demografica_pais_a);
@@ -859,7 +863,7 @@ case 5:
 			}if (pib_pais_b > densidade_demografica_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
-			printf("Pais B : ( %s ) - PIB : (%.2f) Reais.\n\n", pais_b, pib_pais_b);
+			printf("Pais B : ( %s ) - PIB : (%.2f) Reais.\n", pais_b, pib_pais_b);
 			printf("Pais A : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n\n", pais_a, densidade_demografica_pais_a);
 			}if (densidade_demografica_pais_a == pib_pais_b || pib_pais_b == densidade_demografica_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -867,14 +871,15 @@ case 5:
 		break;
 		
 		case 4:
-			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
-			printf("\ndigite o Número de Pontos Turisticos do pais B:\n");
+			
+			printf("\ndigite o Número de Pontos Turisticos do pais B:\n"); // Entrada.
 			scanf("%d", &pontos_turisticos_b);
 			
-			if (densidade_demografica_pais_a > pontos_turisticos_b) {
+			if (densidade_demografica_pais_a > pontos_turisticos_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n", pais_a, densidade_demografica_pais_a);
@@ -882,7 +887,7 @@ case 5:
 			}if (pontos_turisticos_b > densidade_demografica_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
-			printf("Pais B : ( %s ) - Número de Pontos Turisticos : %d.\n\n", pais_b, pontos_turisticos_b);
+			printf("Pais B : ( %s ) - Número de Pontos Turisticos : %d.\n", pais_b, pontos_turisticos_b);
 			printf("Pais A : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n\n", pais_a, densidade_demografica_pais_a);
 			}if (densidade_demografica_pais_a == pontos_turisticos_b || pontos_turisticos_b == densidade_demografica_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -890,25 +895,25 @@ case 5:
 		break;
 		
 		case 5:
-			printf("\nAtributo Escolhido : Densidade Demografica.\n");
+			printf("\nAtributo Escolhido : Densidade Demografica.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite a População do pais B:\n");
+			printf("\nDigite a População do pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 	
-			printf("\nDigite a Area do pais B:\n");
+			printf("\nDigite a Area do pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
 			// Formula do Calculo desidade demografica das Cartas:
 			densidade_demografica_pais_b = populacao_pais_b / area_pais_b;
 			
-			if (densidade_demografica_pais_a < densidade_demografica_pais_b) {
+			if (densidade_demografica_pais_a < densidade_demografica_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n", pais_a, densidade_demografica_pais_a);
-			printf("Pais B : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n", pais_b, densidade_demografica_pais_b);
+			printf("Pais B : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n\n", pais_b, densidade_demografica_pais_b);
 			}if (densidade_demografica_pais_b < densidade_demografica_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
@@ -920,30 +925,30 @@ case 5:
 		break;
 		
 		case 6:
-			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+			printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 		
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o PIB do Pais B:\n");
+			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
-			printf("\nDigite à População do Pais B:\n");
+			printf("\nDigite à População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
 			// Formula do Calculo PIB Per Capta da Carta B.
 			pib_per_capta_pais_b = pib_pais_b / populacao_pais_b;
 			
-			if (densidade_demografica_pais_a > pib_per_capta_pais_b) {
+			if (densidade_demografica_pais_a > pib_per_capta_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n", pais_a, densidade_demografica_pais_a);
-			printf("Pais B : ( %s ) - PIB - Per Capta : %.2f Reais.\n", pais_a, pib_per_capta_pais_b);
+			printf("Pais B : ( %s ) - PIB - Per Capta : %.2f Reais.\n\n", pais_a, pib_per_capta_pais_b);
 			}if (pib_per_capta_pais_b > densidade_demografica_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
 			printf("Pais B : ( %s ) - PIB - Per Capta : %.2f Reais.\n", pais_a, pib_per_capta_pais_b);
-			printf("Pais A : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n", pais_a, densidade_demografica_pais_a);
+			printf("Pais A : ( %s ) - Densidade Demografica : %.2f Habitantes Por Km².\n\n", pais_a, densidade_demografica_pais_a);
 			}if (densidade_demografica_pais_a == pib_per_capta_pais_b || pib_per_capta_pais_b == densidade_demografica_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Resultado Final : ( %s ) e ( %s ) Empatados.\n\n", pais_a , pais_b);}
@@ -952,20 +957,19 @@ case 5:
 break;
 
 case 6:
-	printf("\nAtributo Escolhido : PIB Per Capta.\n");
+	printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 	
-	printf("\nPIB - Per Capta\n");
-	printf("\nDigigte o nome do pais A: \n");
+	printf("\nDigigte o nome do pais A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
-	printf("\nDigite o PIB do Pais A:\n");
+	
+	printf("\nDigite o PIB do Pais A:\n"); // Entrada.
 	scanf("%f", &pib_pais_a);
-	printf("\nDigite à População do Pais A:\n");
+	
+	printf("\nDigite à População do Pais A:\n"); // Entrada.
 	scanf("%d", &populacao_pais_a);
 	
 	// Formula do Calculo PIB Per Capta da Carta A.
 	pib_per_capta_pais_a = pib_pais_a / populacao_pais_a;
-	
-	printf("\n%f.\n", pib_per_capta_pais_a);
 	
 	printf("\nEscolha o Segundo Atributo Desejado Para a Comparação:\n");
 	printf("1 - População :\n");
@@ -979,14 +983,15 @@ case 6:
 	switch (dados2) {
 	
 		case 1:
-			printf("\nAtributo Escolhido : População.\n");
+			printf("\nAtributo Escolhido : População.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
-			printf("\ndigite a População do pais B:\n");
+			
+			printf("\ndigite a População do pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
-			if (pib_per_capta_pais_a > populacao_pais_b) {
+			if (pib_per_capta_pais_a > populacao_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - PIB - Per Capta : %.2f Reais.\n", pais_a, pib_per_capta_pais_a);
@@ -1002,14 +1007,15 @@ case 6:
 		break;
 		
 		case 2:
-			printf("\nAtributo Escolhido : Área.\n");
+			printf("\nAtributo Escolhido : Área.\n"); // Mensagem.
 		
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
-			printf("\ndigite a Àrea do pais B:\n");
+			
+			printf("\ndigite a Àrea do pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
-			if (pib_per_capta_pais_a > area_pais_b) {
+			if (pib_per_capta_pais_a > area_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - PIB - Per Capta : %.2f Reais.\n", pais_a, pib_per_capta_pais_a);
@@ -1017,7 +1023,7 @@ case 6:
 			}if (area_pais_b > pib_per_capta_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
-			printf("Pais B : ( %s ) - Àrea : (%.2f) Km².\n\n", pais_b, area_pais_b);
+			printf("Pais B : ( %s ) - Àrea : (%.2f) Km².\n", pais_b, area_pais_b);
 			printf("Pais A : ( %s ) - PIB - Per Capta : %.2f Reais.\n\n", pais_a, pib_per_capta_pais_a);
 			}if (pib_per_capta_pais_a == area_pais_b || area_pais_b == pib_per_capta_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -1025,14 +1031,15 @@ case 6:
 		break;
 		
 		case 3:
-			printf("\nAtributo Escolhido : PIB.\n");
+			printf("\nAtributo Escolhido : PIB.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
-			printf("\ndigite a PIB do pais B:\n");
+			
+			printf("\ndigite a PIB do pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
-			if (pib_per_capta_pais_a > pib_pais_b) {
+			if (pib_per_capta_pais_a > pib_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - PIB - Per Capta : %.2f Reais.\n", pais_a, pib_per_capta_pais_a);
@@ -1040,7 +1047,7 @@ case 6:
 			}if (pib_pais_b > pib_per_capta_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
-			printf("Pais B : ( %s ) - PIB : (%.2f) Reais.\n\n", pais_b, pib_pais_b);
+			printf("Pais B : ( %s ) - PIB : (%.2f) Reais.\n", pais_b, pib_pais_b);
 			printf("Pais A : ( %s ) - PIB - Per Capta : %.2f Reais.\n\n", pais_a, pib_per_capta_pais_a);
 			}if (pib_per_capta_pais_a == pib_pais_b || pib_pais_b == pib_per_capta_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -1048,14 +1055,15 @@ case 6:
 		break;
 		
 		case 4:
-			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
-			printf("\ndigite o Número de Pontos Turisticos do pais B:\n");
+			
+			printf("\ndigite o Número de Pontos Turisticos do pais B:\n"); // Entrada.
 			scanf("%d", &pontos_turisticos_b);
 			
-			if (pib_per_capta_pais_a > pontos_turisticos_b) {
+			if (pib_per_capta_pais_a > pontos_turisticos_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - PIB - Per Capta : %.2f Reais.\n", pais_a, pib_per_capta_pais_a);
@@ -1063,7 +1071,7 @@ case 6:
 			}if (pontos_turisticos_b > pib_per_capta_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
-			printf("Pais B : ( %s ) - Número de Pontos Turisticos : %d.\n\n", pais_b, pontos_turisticos_b);
+			printf("Pais B : ( %s ) - Número de Pontos Turisticos : %d.\n", pais_b, pontos_turisticos_b);
 			printf("Pais A : ( %s ) - PIB - Per Capta : %.2f Reais.\n\n", pais_a, pib_per_capta_pais_a);
 			}if (pib_per_capta_pais_a == pontos_turisticos_b || pontos_turisticos_b == pib_per_capta_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
@@ -1071,20 +1079,21 @@ case 6:
 		break;
 		
 		case 5:	
-			printf("\nAtributo Escolhido : Densidade Demografica.\n");
+			printf("\nAtributo Escolhido : Densidade Demografica.\n"); // Mensagem.
 		
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite a População do pais B:\n");
+			printf("\nDigite a População do pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 	
-			printf("\nDigite a Area do pais B:\n");
+			printf("\nDigite a Area do pais B:\n"); // Entrada.
 			scanf("%f", &area_pais_b);
 			
+			 // Formula do Calculo Densidade Demografica da Carta B.
 			densidade_demografica_pais_b = populacao_pais_b / area_pais_b;
 			
-			if (pib_per_capta_pais_a > densidade_demografica_pais_b) {
+			if (pib_per_capta_pais_a > densidade_demografica_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - PIB - Per Capta : %.2f Reais.\n", pais_a, pib_per_capta_pais_a);
@@ -1100,25 +1109,25 @@ case 6:
 		break;
 		
 		case 6:
-			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+			printf("\nAtributo Escolhido : PIB Per Capta.\n"); // Mensagem.
 			
-			printf("\nDigigte o Nome do pais B: \n");
+			printf("\nDigigte o Nome do pais B: \n"); // Entrada.
 			scanf(" %99[^\n]", pais_b);
 			
-			printf("\nDigite o PIB do Pais B:\n");
+			printf("\nDigite o PIB do Pais B:\n"); // Entrada.
 			scanf("%f", &pib_pais_b);
 			
-			printf("\nDigite à População do Pais B:\n");
+			printf("\nDigite à População do Pais B:\n"); // Entrada.
 			scanf("%d", &populacao_pais_b);
 			
 			// Formula do Calculo PIB Per Capta da Carta B.
 			pib_per_capta_pais_b = pib_pais_b / populacao_pais_b;
 			
-			if (pib_per_capta_pais_a > pib_per_capta_pais_b) {
+			if (pib_per_capta_pais_a > pib_per_capta_pais_b) { // Estrutura de Decisão.
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais A - ( %s ) - Venceu.\n\n", pais_a);
 			printf("Pais A : ( %s ) - PIB - Per Capta : %.2f Reais.\n", pais_a, pib_per_capta_pais_a);
-			printf("Pais B : ( %s ) - PIB - Per Capta : %.2f Reais.\n", pais_a, pib_per_capta_pais_b);
+			printf("Pais B : ( %s ) - PIB - Per Capta : %.2f Reais.\n\n", pais_a, pib_per_capta_pais_b);
 			}if (pib_per_capta_pais_b > pib_per_capta_pais_a) {
 			printf("\n----------- Resultado da Comparação: -----------\n\n");
 			printf("Pais B - ( %s ) - Venceu.\n\n", pais_b);
@@ -1132,61 +1141,67 @@ case 6:
 break;
 
 case 7:
-	printf("\nSuper Poder do País A vs Super Poder do País B:\n\n");
+	printf("\nSuper Poder do País A vs Super Poder do País B:\n\n"); // Mensagem.
 	
-	printf("----------- Carta A: -----------\n\n");
+	printf("----------- Carta A: -----------\n\n"); // Mensagem.
 	
-	printf("Digite o Nome do País A: \n");
+	printf("Digite o Nome do País A: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_a);
 	
-	printf("\nDigite a População do País A: \n");
+	printf("\nDigite a População do País A: \n"); // Entrada.
 	scanf("%d", &populacao_pais_a);
 	
-	printf("\nDigite a Área do pais A:\n");
+	printf("\nDigite a Área do pais A:\n"); // Entrada.
 	scanf("%f", &area_pais_a);
 	
-	printf("\nDigite o PIB do Pais A:\n");
+	printf("\nDigite o PIB do Pais A:\n"); // Entrada.
 	scanf("%f", &pib_pais_a);
 	
-	printf("\nDigite o Número de Pontos Turisticos Do Pais A: \n");
+	printf("\nDigite o Número de Pontos Turisticos Do Pais A: \n"); // Entrada.
 	scanf("%d", &pontos_turisticos_a);
 	
+	// Formula do Calculo Densidade Demografica da Carta A.
 	densidade_demografica_pais_a = populacao_pais_a / area_pais_a;
 	
+	// Formula do Calculo PIB Per Capta da Carta A.
 	pib_per_capta_pais_a = pib_pais_a / populacao_pais_a;
 	
+	// Formula do Calculo do Super Poder da Carta A.
 	super_poder_pais_a = 1 / densidade_demografica_pais_a + area_pais_a + pib_pais_a + populacao_pais_a + pontos_turisticos_a + pib_per_capta_pais_a;
 	
-	printf("\n----------- Carta B: -----------\n\n");
+	printf("\n----------- Carta B: -----------\n\n"); // Mensagem.
 	
-	printf("Digite o Nome do País B: \n");
+	printf("Digite o Nome do País B: \n"); // Entrada.
 	scanf(" %99[^\n]", pais_b);
 	
-	printf("\nDigite a População do País B: \n");
+	printf("\nDigite a População do País B: \n"); // Entrada.
 	scanf("%d", &populacao_pais_b);
 	
-	printf("\nDigite a Área do pais B:\n");
+	printf("\nDigite a Área do pais B:\n"); // Entrada.
 	scanf("%f", &area_pais_b);
 	
-	printf("\nDigite o PIB do Pais B:\n");
+	printf("\nDigite o PIB do Pais B:\n"); // Entrada.
 	scanf("%f", &pib_pais_b);
 	
-	printf("\nDigite o Número de Pontos Turisticos Do Pais B: \n");
+	printf("\nDigite o Número de Pontos Turisticos Do Pais B: \n"); // Entrada.
 	scanf("%d", &pontos_turisticos_b);
 	
+	// Formula do Calculo Densidade Demografica da Carta B.
 	densidade_demografica_pais_b = populacao_pais_b / area_pais_b;
 	
+	// Formula do Calculo PIB Per Capta da Carta B.
 	pib_per_capta_pais_b = pib_pais_b / populacao_pais_b;
 	
+	// Formula do Calculo do Super Poder da Carta B.
 	super_poder_pais_b = 1 / densidade_demografica_pais_b + area_pais_b + pib_pais_b + populacao_pais_b + pontos_turisticos_b + pib_per_capta_pais_b;
 	
-	printf("\nO Super Poder do País A - (%s): %.2f Pontos.\n", pais_a, super_poder_pais_a);
-	printf("O Super Poder do País B - (%s): %.2f Pontos.\n", pais_b, super_poder_pais_b);
+	printf("\nO Super Poder do País A - (%s): %.2f Pontos.\n", pais_a, super_poder_pais_a); // Mensagem.
+	printf("O Super Poder do País B - (%s): %.2f Pontos.\n", pais_b, super_poder_pais_b); // Mensagem.
 	
-	printf("\n----------- Resultado Final : -----------\n");
+	printf("\n----------- Resultado Final : -----------\n"); // Mensagem.
 	
-	if (super_poder_pais_a > super_poder_pais_b) {
-	printf("\nVencedor : Super Poder do País A - (%s): %.2f Pontos.\n", pais_a, super_poder_pais_a);
+	if (super_poder_pais_a > super_poder_pais_b) { // Estrutura de Decisão.
+	printf("\nVencedor : Super Poder do País A - (%s): %.2f Pontos.\n\n", pais_a, super_poder_pais_a);
 	}if (super_poder_pais_b > super_poder_pais_a) {
 	printf("\nVencedor : Super Poder do País B - (%s): %.2f Pontos.\n\n", pais_b, super_poder_pais_b);
 	}if (super_poder_pais_a == super_poder_pais_b) {
@@ -1195,8 +1210,8 @@ case 7:
 break;
 
 default:
-	printf("\nErro - Execute o Programa Novamente.\n");
-	printf("\n© Criado Por: Kauan Gomes.  |  Github: ( https://github.com/KauanGomes-Lab ) © -----------\n\n");
+	printf("\nErro - Execute o Programa Novamente.\n"); // Mensagem.
+	printf("\n© Criado Por: Kauan Gomes.  |  Github: ( https://github.com/KauanGomes-Lab ) © -----------\n\n"); // Mensagem.
 break;
 }
 return 0;
