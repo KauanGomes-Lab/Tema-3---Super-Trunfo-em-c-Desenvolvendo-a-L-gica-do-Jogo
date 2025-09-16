@@ -16,7 +16,9 @@ pib_pais_b, // Variavel Responsavel Por Armazenar o valor do PIB do Pais B.
 densidade_demografica_pais_a, // Variavel Responsavel Por Armazenar o valor da Densidade Demografica do Pais A.
 densidade_demografica_pais_b, // Variavel Responsavel Por Armazenar o valor da Densidade Demografica do Pais B.
 pib_per_capta_pais_a, // Variavel Responsavel Por Armazenar o valor do PIB Per Capta Do Pais A.
-pib_per_capta_pais_b; // Variavel Responsavel Por Armazenar o valor do PIB Per Capta Do Pais B.
+pib_per_capta_pais_b, // Variavel Responsavel Por Armazenar o valor do PIB Per Capta Do Pais B.
+super_poder_pais_a, //Variavel Responsavel Por Armazenar o valor do Super Poder da Carta A.
+super_poder_pais_b; //Variavel Responsavel Por Armazenar o valor do Super Poder da Carta B.
 
 int 
 populacao_pais_a,  // Variavel Responsavel Por Armazenar o valor da População do Pais A.
@@ -36,6 +38,12 @@ densidade_demografica_pais_b = populacao_pais_b / area_pais_b;
 pib_per_capta_pais_a = pib_pais_a / populacao_pais_a;
 pib_per_capta_pais_b = pib_pais_b / populacao_pais_b;
 
+// Formula Para Calcular o Super Poder da Carta A:
+super_poder_pais_a = 1 / densidade_demografica_pais_a + area_pais_a + pib_pais_a + populacao_pais_a + pontos_turisticos_a + pib_per_capta_pais_a;
+
+// Formula Para Calcular o Super Poder da Carta B:
+super_poder_pais_b = 1 / densidade_demografica_pais_b + area_pais_b + pib_pais_b + populacao_pais_b + pontos_turisticos_b + pib_per_capta_pais_b;
+
 printf("\nSuper Trunfo : Tema 3 - Mestre. -----------");
 
 printf("\n\nEscolha o Atributo Desejado Para a Comparação:\n\n");
@@ -44,7 +52,8 @@ printf("2 - Àrea :\n");
 printf("3 - PIB :\n");	
 printf("4 - Número de pontos turísticos :\n");
 printf("5 - Densidade Demografica :\n");
-printf("6 - PIB Per Capta :\n\n");
+printf("6 - PIB Per Capta :\n");
+printf("7 - Super Poder (País A|B):\n\n");
 
 printf("Digite a Opção Desejada:\n");
 scanf("%d", &dados);
@@ -1036,6 +1045,69 @@ case 6:
 			printf("Resultado Final : ( %s ) e ( %s ) Empatados.\n\n", pais_a , pais_b);}
 		break;
 		}
+break;
+
+case 7:
+	printf("\nSuper Poder do País A vs Super Poder do País B:\n\n");
+	
+	printf("----------- Carta A: -----------\n\n");
+	
+	printf("Digite o Nome do País A: \n");
+	scanf(" %99[^\n]", pais_a);
+	
+	printf("\nDigite a População do País A: \n");
+	scanf("%d", &populacao_pais_a);
+	
+	printf("\nDigite a Área do pais A:\n");
+	scanf("%f", &area_pais_a);
+	
+	printf("\nDigite o PIB do Pais A:\n");
+	scanf("%f", &pib_pais_a);
+	
+	printf("\nDigite o Número de Pontos Turisticos Do Pais A: \n");
+	scanf("%d", &pontos_turisticos_a);
+	
+	densidade_demografica_pais_a = populacao_pais_a / area_pais_a;
+	
+	pib_per_capta_pais_a = pib_pais_a / populacao_pais_a;
+	
+	super_poder_pais_a = 1 / densidade_demografica_pais_a + area_pais_a + pib_pais_a + populacao_pais_a + pontos_turisticos_a + pib_per_capta_pais_a;
+	
+	printf("\n----------- Carta B: -----------\n\n");
+	
+	printf("Digite o Nome do País B: \n");
+	scanf(" %99[^\n]", pais_b);
+	
+	printf("\nDigite a População do País B: \n");
+	scanf("%d", &populacao_pais_b);
+	
+	printf("\nDigite a Área do pais B:\n");
+	scanf("%f", &area_pais_b);
+	
+	printf("\nDigite o PIB do Pais B:\n");
+	scanf("%f", &pib_pais_b);
+	
+	printf("\nDigite o Número de Pontos Turisticos Do Pais B: \n");
+	scanf("%d", &pontos_turisticos_b);
+	
+	densidade_demografica_pais_b = populacao_pais_b / area_pais_b;
+	
+	pib_per_capta_pais_b = pib_pais_b / populacao_pais_b;
+	
+	super_poder_pais_b = 1 / densidade_demografica_pais_b + area_pais_b + pib_pais_b + populacao_pais_b + pontos_turisticos_b + pib_per_capta_pais_b;
+	
+	printf("\nO Super Poder do País A - (%s): %.2f Pontos.\n", pais_a, super_poder_pais_a);
+	printf("O Super Poder do País B - (%s): %.2f Pontos.\n", pais_b, super_poder_pais_b);
+	
+	printf("\n----------- Resultado Final : -----------\n");
+	
+	if (super_poder_pais_a > super_poder_pais_b) {
+	printf("\nVencedor : Super Poder do País A - (%s): %.2f Pontos.\n", pais_a, super_poder_pais_a);
+	}if (super_poder_pais_b > super_poder_pais_a) {
+	printf("\nVencedor : Super Poder do País B - (%s): %.2f Pontos.\n\n", pais_b, super_poder_pais_b);
+	}if (super_poder_pais_a == super_poder_pais_b) {
+	printf("\nEmpate.\n\n");
+	}
 break;
 
 default:
