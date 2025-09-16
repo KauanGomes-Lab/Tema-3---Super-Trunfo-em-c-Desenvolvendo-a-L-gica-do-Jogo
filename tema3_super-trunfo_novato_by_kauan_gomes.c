@@ -22,7 +22,7 @@ int main() {
   pib_per_capta_cidade_a, // Variavel que Armazena PIB Per Capta A.
   pib_per_capta_cidade_b; // Variavel que Armazena PIB Per Capta B.
     
-  int populacao_cidade_a, // Variavel que Armazena o Numero de Pontos Turiscos A.
+  int populacao_cidade_a, // Variavel que Armazena a População A.
   populacao_cidade_b, // Variavel que Armazena a População B.
   pontos_turisticos_a, // Variavel que Armazena o Numero de Pontos Turiscos A.
   pontos_turisticos_b; // Variavel que Armazena o Numero de Pontos Turiscos B.
