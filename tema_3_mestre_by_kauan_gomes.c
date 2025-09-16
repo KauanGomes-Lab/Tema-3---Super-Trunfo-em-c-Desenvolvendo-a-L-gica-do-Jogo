@@ -61,6 +61,8 @@ scanf("%d", &dados);
 switch (dados) {
 
 case 1:
+	printf("\nAtributo Escolhido : População.\n");
+	
 	printf("\nDigigte o nome do pais A: \n");
 	scanf(" %99[^\n]", pais_a);
 	printf("\ndigite a população do pais A:\n");
@@ -78,6 +80,8 @@ case 1:
 		switch (dados2) {
 		
 		case 1:
+			printf("\nAtributo Escolhido : População.\n");
+			
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -100,10 +104,12 @@ case 1:
 		break;
 		
 		case 2:
+			printf("\nAtributo Escolhido : Área.\n");
+			
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 		
-			printf("\nDigite à Àrea do Pais B:\n");
+			printf("\nDigite à Área do Pais B:\n");
 			scanf("%f", &area_pais_b);
 		
 			if (populacao_pais_a > area_pais_b) {
@@ -122,6 +128,8 @@ case 1:
 		break;
 		
 		case 3:
+			printf("\nAtributo Escolhido : PIB.\n");
+			
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -144,6 +152,8 @@ case 1:
 		break;
 		
 		case 4:
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+			
 			printf("\nDigite o Nome do Pais A:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -166,6 +176,8 @@ case 1:
 		break;
 		
 		case 5:
+			printf("\nAtributo Escolhido : Densidade Demografica.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 				
@@ -194,6 +206,8 @@ case 1:
 		break;
 		
 		case 6:
+			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -224,6 +238,7 @@ case 1:
 break;
 
 case 2:
+	printf("\nAtributo Escolhido : Área.\n");
 	printf("\nDigigte o nome do pais A: \n");
 	scanf(" %99[^\n]", pais_a);
 	printf("\ndigite a Área do pais A:\n");
@@ -241,6 +256,8 @@ case 2:
 		switch (dados2) {
 		
 		case 1:
+			printf("\nAtributo Escolhido : População.\n");
+			
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -263,6 +280,8 @@ case 2:
 		break;
 		
 		case 2:
+			printf("\nAtributo Escolhido : Área.\n");
+			
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 		
@@ -285,6 +304,8 @@ case 2:
 		break;
 		
 		case 3:
+			printf("\nAtributo Escolhido : PIB.\n");
+			
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -307,6 +328,8 @@ case 2:
 		break;
 		
 		case 4:
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+			
 			printf("\nDigite o Nome do Pais A:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -329,6 +352,8 @@ case 2:
 		break;
 			
 		case 5:
+			printf("\nAtributo Escolhido : Densidade Demografica.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 				
@@ -357,6 +382,8 @@ case 2:
 		break;
 		
 		case 6:
+			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -387,6 +414,8 @@ case 2:
 break;
 
 case 3:
+	printf("\nAtributo Escolhido : PIB.\n");
+	
 	printf("\nDigigte o nome do pais A: \n");
 	scanf(" %99[^\n]", pais_a);
 	
@@ -406,6 +435,8 @@ case 3:
 	switch (dados2) {
 	
 		case 1:
+			printf("\nAtributo Escolhido : População.\n");
+			
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -428,6 +459,8 @@ case 3:
 		break;
 		
 		case 2:
+			printf("\nAtributo Escolhido : Área.\n");
+			
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -450,6 +483,8 @@ case 3:
 		break;
 		
 		case 3:
+			printf("\nAtributo Escolhido : PIB.\n");
+			
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -472,6 +507,9 @@ case 3:
 		break;
 		
 		case 4:
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+
+			
 			printf("\nDigite o Número de Pontos Turisticos do Pais B:\n");
 			scanf("%d", &pontos_turisticos_b);
 			
@@ -491,6 +529,8 @@ case 3:
 		break;
 		
 		case 5:
+			printf("\nAtributo Escolhido : Densidade Demografica.\n");	
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 				
@@ -519,6 +559,8 @@ case 3:
 		break;
 		
 		case 6:
+			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -549,6 +591,8 @@ case 3:
 break;
 
 case 4:
+	printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+	
 	printf("\nDigigte o nome do pais A: \n");
 	scanf(" %99[^\n]", pais_a);
 	
@@ -568,6 +612,8 @@ case 4:
 	switch (dados2) {
 	
 		case 1:
+			printf("\nAtributo Escolhido : População.\n");
+			
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -590,6 +636,8 @@ case 4:
 		break;
 		
 		case 2:
+			printf("\nAtributo Escolhido : Área.\n");
+
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -612,6 +660,8 @@ case 4:
 		break;
 		
 		case 3:
+			printf("\nAtributo Escolhido : PIB.\n");
+			
 			printf("\nDigite o Nome do Pais B:\n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -634,6 +684,8 @@ case 4:
 		break;
 		
 		case 4:
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			printf("\ndigite o Número de Pontos Turisticos do pais B:\n");
@@ -655,6 +707,8 @@ case 4:
 		break;
 		
 		case 5:
+			printf("\nAtributo Escolhido : Densidade Demografica.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -683,6 +737,8 @@ case 4:
 		break;
 		
 		case 6:
+			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -712,7 +768,9 @@ case 4:
 		}
 break;
 
-case 5:
+case 5: 
+	printf("\nAtributo Escolhido : Densidade Demografica.\n");
+		
 	printf("\nDensidade Demografica do País A:\n\n");
 	
 	printf("Digite o Nome do País A: \n");
@@ -740,6 +798,8 @@ case 5:
 	switch (dados2) {
 	
 		case 1:
+			printf("\nAtributo Escolhido : População.\n");
+		
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			printf("\ndigite a População do pais B:\n");
@@ -761,6 +821,8 @@ case 5:
 		break;
 		
 		case 2:
+			printf("\nAtributo Escolhido : Área.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			printf("\ndigite a Àrea do pais B:\n");
@@ -782,6 +844,8 @@ case 5:
 		break;
 		
 		case 3:
+			printf("\nAtributo Escolhido : PIB.\n");
+				
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			printf("\ndigite a PIB do pais B:\n");
@@ -803,6 +867,8 @@ case 5:
 		break;
 		
 		case 4:
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			printf("\ndigite o Número de Pontos Turisticos do pais B:\n");
@@ -824,6 +890,8 @@ case 5:
 		break;
 		
 		case 5:
+			printf("\nAtributo Escolhido : Densidade Demografica.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -852,6 +920,8 @@ case 5:
 		break;
 		
 		case 6:
+			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+		
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -882,6 +952,8 @@ case 5:
 break;
 
 case 6:
+	printf("\nAtributo Escolhido : PIB Per Capta.\n");
+	
 	printf("\nPIB - Per Capta\n");
 	printf("\nDigigte o nome do pais A: \n");
 	scanf(" %99[^\n]", pais_a);
@@ -907,6 +979,8 @@ case 6:
 	switch (dados2) {
 	
 		case 1:
+			printf("\nAtributo Escolhido : População.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			printf("\ndigite a População do pais B:\n");
@@ -928,6 +1002,8 @@ case 6:
 		break;
 		
 		case 2:
+			printf("\nAtributo Escolhido : Área.\n");
+		
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			printf("\ndigite a Àrea do pais B:\n");
@@ -949,6 +1025,8 @@ case 6:
 		break;
 		
 		case 3:
+			printf("\nAtributo Escolhido : PIB.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			printf("\ndigite a PIB do pais B:\n");
@@ -970,6 +1048,8 @@ case 6:
 		break;
 		
 		case 4:
+			printf("\nAtributo Escolhido : Números de Pontos Turisticos.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			printf("\ndigite o Número de Pontos Turisticos do pais B:\n");
@@ -990,7 +1070,9 @@ case 6:
 			printf("Resultado Final : ( %s ) e ( %s ) Empatados.\n\n", pais_a , pais_b);}
 		break;
 		
-		case 5:
+		case 5:	
+			printf("\nAtributo Escolhido : Densidade Demografica.\n");
+		
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -1018,6 +1100,8 @@ case 6:
 		break;
 		
 		case 6:
+			printf("\nAtributo Escolhido : PIB Per Capta.\n");
+			
 			printf("\nDigigte o Nome do pais B: \n");
 			scanf(" %99[^\n]", pais_b);
 			
@@ -1117,3 +1201,4 @@ break;
 }
 return 0;
 }
+// Criado Por Kauan Gomes - Github: ----------- © ( https://github.com/KauanGomes-Lab ) © ----------- :
