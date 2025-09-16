@@ -2,19 +2,23 @@
 
 int main () {
 
-char pais_a[50],
-pais_b[50];
+char 
+pais_a[50], // As Variavel Tem o Valor 50 Pois Podem Armazenar Até 49 Caracteres.
+pais_b[50]; // As Variavel Tem o Valor 50 Pois Podem Armazenar Até 49 Caracteres.
 
-float area_pais_a,
-area_pais_b,pib_pais_a,
-pib_pais_b,
-densidade_demografica_pais_a,
-densidade_demografica_pais_b;
+float 
+area_pais_a, // Variavel que Armazena a Area Digitados A.
+area_pais_b, // Variavel que Armazena a Area Digitados B.
+pib_pais_a, // Variavel que Armazena o PIB A.
+pib_pais_b, // Variavel que Armazena o PIB B.
+densidade_demografica_pais_a, // Variavel que Armazena a Densidade Populacional A.
+densidade_demografica_pais_b; // Variavel que Armazena a Densidade Populacional B.
 
-int populacao_pais_a,
-populacao_pais_b,
-pontos_turisticos_a,
-pontos_turisticos_b;
+int 
+populacao_pais_a, // Variavel que Armazena a População A.
+populacao_pais_b, // Variavel que Armazena a População B.
+pontos_turisticos_a, // Variavel que Armazena o Numero de Pontos Turiscos A.
+pontos_turisticos_b; // Variavel que Armazena o Numero de Pontos Turiscos B.
 
 int dados;
 
